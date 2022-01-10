@@ -1,0 +1,24 @@
+{
+  "name": "projectlight",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "watch": "parcel index.html thanks.html",
+    "build": "parcel build index.html thanks.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@fancyapps/ui": "^4.0.5",
+    "D": "^1.0.0",
+    "locomotive-scroll": "^4.1.2",
+    "sass": "^1.42.1"
+  }
+}
